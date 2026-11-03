@@ -36,6 +36,6 @@ jobs:
           git config user.name "github-actions[bot]@users.noreply.github.com"
           git add data/weather.json data/weather_log.csv || true
           git commit -m "ci: update weather data" || echo "No changes to commit"
-          git puch || echo "Push failed or no changes"
+          git push || echo "Push failed or no changes"
       - name: Trigger Render Deploy
         run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
