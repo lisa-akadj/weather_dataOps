@@ -22,3 +22,4 @@ timestamp,city,temperature,description
 2026-11-08T12:41:28.905Z,London,9.53,broken clouds
 2026-11-08T18:38:01.830Z,London,7.16,clear sky
 2026-11-08T23:24:16.342Z,London,5.17,overcast clouds
+2026-11-09T04:27:33.659Z,London,4.67,fog
